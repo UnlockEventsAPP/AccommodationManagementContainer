@@ -1,3 +1,286 @@
+DELETE http://localhost:8000/api/access/4
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-30T182036.200.json
+
+###
+
+PUT http://localhost:8000/api/access/4
+Content-Type: application/json
+Content-Length: 139
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id_usuario": 2,
+  "id_alojamiento": 2,
+  "id_evento": 1,
+  "tipo_acceso": "FREE TRIAL",
+  "fecha_hora_acceso": "2024-08-31T14:30:00"
+}
+
+<> 2024-08-30T182021.200.json
+
+###
+
+GET http://localhost:8000/api/access/
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-30T181907.200.json
+
+###
+
+GET http://localhost:8000/api/access/4
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-30T181850.200.json
+
+###
+
+GET http://localhost:8000/api/access/1
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-30T181801.404.json
+
+###
+
+GET http://localhost:8000/api/access/1
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-30T181750.404.json
+
+###
+
+POST http://localhost:8000/api/access/
+Content-Type: application/json
+Content-Length: 132
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id_usuario": 2,
+  "id_alojamiento": 2,
+  "id_evento": 1,
+  "tipo_acceso": "VIP",
+  "fecha_hora_acceso": "2024-08-31T14:30:00"
+}
+
+<> 2024-08-30T181621.200.json
+
+###
+
+POST http://localhost:8000/api/access/
+Content-Type: application/json
+Content-Length: 132
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id_usuario": 2,
+  "id_alojamiento": 1,
+  "id_evento": 1,
+  "tipo_acceso": "VIP",
+  "fecha_hora_acceso": "2024-08-31T14:30:00"
+}
+
+<> 2024-08-30T181315.500.txt
+
+###
+
+POST http://localhost:8000/api/access/
+Content-Type: application/json
+Content-Length: 132
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id_usuario": 2,
+  "id_alojamiento": 1,
+  "id_evento": 1,
+  "tipo_acceso": "VIP",
+  "fecha_hora_acceso": "2024-08-31T14:30:00"
+}
+
+<> 2024-08-30T181253.500.txt
+
+###
+
+POST http://localhost:8000/api/accommodations/
+Content-Type: application/json
+Content-Length: 137
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "nombre": "Hotel La Playa",
+  "direccion": "123 Avenida del Sol",
+  "ciudad": "Cartagena",
+  "aforo": 200,
+  "convenio": "Platinum"
+}
+
+<> 2024-08-30T181242.200.json
+
+###
+
+POST http://localhost:8000/api/access/
+Content-Type: application/json
+Content-Length: 132
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id_usuario": 1,
+  "id_alojamiento": 1,
+  "id_evento": 1,
+  "tipo_acceso": "VIP",
+  "fecha_hora_acceso": "2024-08-31T14:30:00"
+}
+
+<> 2024-08-30T181143.500.txt
+
+###
+
+POST http://localhost:8000/api/access/1
+Content-Length: 164
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+Content-Type: application/json
+
+{
+  "id_usuario": 1,
+  "id_alojamiento": 1,
+  "id_evento": 1,
+  "tipo_acceso": "VIP",
+  "fecha_hora_acceso": "2024-08-31T14:30:00"
+}
+
+<> 2024-08-30T181115.405.json
+
+###
+
+POST http://localhost:8000/api/access/
+Content-Length: 164
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+Content-Type: application/json
+
+{
+  "id_usuario": 1,
+  "id_alojamiento": 1,
+  "id_evento": 1,
+  "tipo_acceso": "VIP",
+  "fecha_hora_acceso": "2024-08-31T14:30:00"
+}
+
+<> 2024-08-30T181059.422.json
+
+###
+
+DELETE http://localhost:8000/api/accommodations/1
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-30T181023.200.json
+
+###
+
+PUT http://localhost:8000/api/accommodations/1
+Content-Type: application/json
+Content-Length: 151
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "nombre": "Hotel La Playa Renovado",
+  "direccion": "123 Avenida del Sol",
+  "ciudad": "Cartagena",
+  "aforo": 250,
+  "convenio": "Platinum Plus"
+}
+
+<> 2024-08-30T180958.200.json
+
+###
+
+GET http://localhost:8000/api/accommodations/
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-30T180909.200.json
+
+###
+
+GET http://localhost:8000/api/accommodations/
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-30T180854.200.json
+
+###
+
+GET http://localhost:8000/api/accommodations/1
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-30T180838.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/accommodations/
+Content-Type: application/json
+Content-Length: 137
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "nombre": "Hotel La Playa",
+  "direccion": "123 Avenida del Sol",
+  "ciudad": "Cartagena",
+  "aforo": 200,
+  "convenio": "Platinum"
+}
+
+<> 2024-08-30T180354.200.json
+
+###
+
 GET http://localhost:8000/hello/carlos
 User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
 Accept-Encoding: br, deflate, gzip, x-gzip

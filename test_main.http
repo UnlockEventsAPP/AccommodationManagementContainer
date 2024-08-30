@@ -1,11 +1,14 @@
-# Test your FastAPI endpoints
+###
+POST http://127.0.0.1:8000/api/accommodations/
+Content-Type: application/json
 
-GET http://127.0.0.1:8000/
-Accept: application/json
+{
+  "nombre": "Hotel La Playa",
+  "direccion": "123 Avenida del Sol",
+  "ciudad": "Cartagena",
+  "aforo": 200,
+  "convenio": "Platinum"
+}
 
 ###
 
-GET http://127.0.0.1:8000/hello/User
-Accept: application/json
-
-###
