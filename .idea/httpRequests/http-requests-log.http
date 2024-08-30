@@ -1,0 +1,20 @@
+GET http://localhost:8000/hello/carlos
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-30T173646.200.json
+
+###
+
+GET http://localhost:8000/hello/
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-30T173637.404.json
+
+###
+
