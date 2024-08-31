@@ -1,3 +1,101 @@
+GET http://localhost:8004/api/access/accesos/
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 1
+
+}
+
+<> 2024-08-31T163935.200.json
+
+###
+
+POST http://localhost:8004/api/access/accesos/
+Content-Type: application/json
+Content-Length: 132
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id_usuario": 2,
+  "id_alojamiento": 2,
+  "id_evento": 1,
+  "tipo_acceso": "VIP",
+  "fecha_hora_acceso": "2024-08-31T14:30:00"
+}
+
+<> 2024-08-31T163923.200.json
+
+###
+
+POST http://localhost:8004/api/access/
+Content-Type: application/json
+Content-Length: 132
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id_usuario": 2,
+  "id_alojamiento": 2,
+  "id_evento": 1,
+  "tipo_acceso": "VIP",
+  "fecha_hora_acceso": "2024-08-31T14:30:00"
+}
+
+<> 2024-08-31T163801.200.json
+
+###
+
+POST http://localhost:8004/api/access/
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-31T163529.422.json
+
+###
+
+POST http://localhost:8000/api/accommodations/
+Content-Type: application/json
+Content-Length: 137
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "nombre": "Hotel La Playa",
+  "direccion": "123 Avenida del Sol",
+  "ciudad": "Cartagena",
+  "aforo": 200,
+  "convenio": "Platinum"
+}
+
+<> 2024-08-30T215310.200.json
+
+###
+
+POST http://localhost:8000/api/access/
+Content-Type: application/json
+Content-Length: 132
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id_usuario": 2,
+  "id_alojamiento": 2,
+  "id_evento": 1,
+  "tipo_acceso": "VIP",
+  "fecha_hora_acceso": "2024-08-31T14:30:00"
+}
+
+<> 2024-08-30T215251.200.json
+
+###
+
 DELETE http://localhost:8000/api/access/4
 User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
 Accept-Encoding: br, deflate, gzip, x-gzip
