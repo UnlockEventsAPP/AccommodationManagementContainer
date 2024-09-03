@@ -10,8 +10,8 @@ def on_startup():
     create_tables()
 
 # Incluir las rutas para gestionar alojamientos y accesos
-app.include_router(accommodations.router, prefix="/api/accommodations", tags=["Accommodations"])
-app.include_router(access.router, prefix="/api/access", tags=["Access"])
+app.include_router(accommodations.router, prefix="/accommodations", tags=["Accommodations"])
+app.include_router(access.router, prefix="/accommodations", tags=["Access"])
 
 @app.get("/")
 def read_root():
