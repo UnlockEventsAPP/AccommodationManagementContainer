@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, ForeignKey, DateTime
+from sqlalchemy import Column, Integer, String, ForeignKey, DateTime, Float
 from sqlalchemy.orm import relationship
 from database import Base
 
@@ -12,7 +12,8 @@ class Alojamiento(Base):
     ciudad = Column(String(100))
     aforo = Column(Integer)
     convenio = Column(String(100))
-
+    precio = Column(Float, nullable=False)
+    status = Column(String(20), nullable=False, default="activo")
     # Relación con la tabla Acceso
     accesos = relationship("Acceso", back_populates="alojamiento")
 

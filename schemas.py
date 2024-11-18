@@ -8,6 +8,8 @@ class AlojamientoBase(BaseModel):
     ciudad: str
     aforo: int
     convenio: str
+    precio: float
+    status: str
 
 # Esquema utilizado para crear un nuevo Alojamiento
 class AlojamientoCreate(AlojamientoBase):
