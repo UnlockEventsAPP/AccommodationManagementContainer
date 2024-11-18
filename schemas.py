@@ -10,6 +10,7 @@ class AlojamientoBase(BaseModel):
     convenio: str
     precio: float
     status: str
+    imagen_url: str
 
 # Esquema utilizado para crear un nuevo Alojamiento
 class AlojamientoCreate(AlojamientoBase):

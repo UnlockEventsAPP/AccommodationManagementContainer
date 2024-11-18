@@ -1,5 +1,136 @@
 POST http://localhost:8004/accommodations/alojamientos/
 Content-Type: application/json
+Content-Length: 228
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "nombre": "Hotel Sol Caribe",
+    "direccion": "Calle 123 #45-67",
+    "ciudad": "Cartagena",
+    "aforo": 100,
+    "convenio": "Corporativo",
+    "precio": 250000.50,
+    "status": "activo",
+    "imagen_url": "12345567"
+}
+
+<> 2024-11-18T145646.200.json
+
+###
+
+POST http://localhost:8004/accommodations/alojamientos/
+Content-Type: application/json
+Content-Length: 228
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "nombre": "Hotel Sol Caribe",
+    "direccion": "Calle 123 #45-67",
+    "ciudad": "Cartagena",
+    "aforo": 100,
+    "convenio": "Corporativo",
+    "precio": 250000.50,
+    "status": "activo",
+    "imagen_url": "12345567"
+}
+
+<> 2024-11-18T145453.200.json
+
+###
+
+POST http://localhost:8004/accommodations/alojamientos/
+Content-Type: application/json
+Content-Length: 228
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "nombre": "Hotel Sol Caribe",
+    "direccion": "Calle 123 #45-67",
+    "ciudad": "Cartagena",
+    "aforo": 100,
+    "convenio": "Corporativo",
+    "precio": 250000.50,
+    "status": "activo",
+    "imagen_url": "12345567"
+}
+
+<> 2024-11-18T145357.200.json
+
+###
+
+POST http://localhost:8004/accommodations/alojamientos/
+Content-Type: application/json
+Content-Length: 227
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "nombre": "Hotel Sol Caribe",
+    "direccion": "Calle 123 #45-67",
+    "ciudad": "Cartagena",
+    "aforo": 100,
+    "convenio": "Corporativo",
+    "precio": 250000.50,
+    "status": "activo",
+    "image_url": "12345567"
+}
+
+<> 2024-11-18T145337.200.json
+
+###
+
+POST http://localhost:8004/accommodations/alojamientos/
+Content-Type: application/json
+Content-Length: 227
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "nombre": "Hotel Sol Caribe",
+    "direccion": "Calle 123 #45-67",
+    "ciudad": "Cartagena",
+    "aforo": 100,
+    "convenio": "Corporativo",
+    "precio": 250000.50,
+    "status": "activo",
+    "image_url": "12345567"
+}
+
+<> 2024-11-18T145324.200.json
+
+###
+
+POST http://localhost:8004/accommodations/alojamientos/
+Content-Type: application/json
+Content-Length: 198
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "nombre": "Hotel Sol Caribe",
+    "direccion": "Calle 123 #45-67",
+    "ciudad": "Cartagena",
+    "aforo": 100,
+    "convenio": "Corporativo",
+    "precio": 250000.50,
+    "status": "activo"
+}
+
+<> 2024-11-18T141820.200.json
+
+###
+
+POST http://localhost:8004/accommodations/alojamientos/
+Content-Type: application/json
 Content-Length: 198
 User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
 Accept-Encoding: br, deflate, gzip, x-gzip

@@ -7,6 +7,7 @@
     <list default="true" id="a9ab7276-777b-443f-9033-ce4a6daa3bd1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +133,7 @@
       <workItem from="1725491046743" duration="628000" />
       <workItem from="1725551755609" duration="791000" />
       <workItem from="1726165930179" duration="193000" />
-      <workItem from="1731946490530" duration="2815000" />
+      <workItem from="1731946490530" duration="8180000" />
     </task>
     <servers />
   </component>
